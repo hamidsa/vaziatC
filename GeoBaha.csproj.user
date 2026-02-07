@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="GeoBaha\CachedCrystalReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\CachedCrystalReport3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\CachedCrystalReport4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\CrystalReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\CrystalReport3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\CrystalReport4.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_AsnadDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_AsnadGhaleb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_AsnadList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\frm_AsnadOnvan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_Calculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\frm_CopySanad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_Enteghal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\frm_Factor_a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\frm_Factor_b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_Fehrest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_FehrestDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_ItemSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_Karfarma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\frm_PrintDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\frm_PrintSanad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_Project.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_ZarayebBakhshname.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GeoBaha\Frm_ZarayebMantaghe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

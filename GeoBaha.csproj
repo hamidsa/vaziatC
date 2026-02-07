@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>GeoBaha</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="GeoBaha.CrystalReport1.rpt" />
+    <None Remove="GeoBaha.CrystalReport3.rpt" />
+    <None Remove="GeoBaha.CrystalReport4.rpt" />
+    <EmbeddedResource Include="GeoBaha.CrystalReport1.rpt" LogicalName="GeoBaha.CrystalReport1.rpt" />
+    <EmbeddedResource Include="GeoBaha.CrystalReport3.rpt" LogicalName="GeoBaha.CrystalReport3.rpt" />
+    <EmbeddedResource Include="GeoBaha.CrystalReport4.rpt" LogicalName="GeoBaha.CrystalReport4.rpt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Management" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine">
+      <HintPath>lib\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared">
+      <HintPath>lib\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource">
+      <HintPath>lib\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <HintPath>lib\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms">
+      <HintPath>lib\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="JntNum2Text">
+      <HintPath>lib\JntNum2Text.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
